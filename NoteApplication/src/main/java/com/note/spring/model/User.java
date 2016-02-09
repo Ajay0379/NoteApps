@@ -44,18 +44,6 @@ public class User implements java.io.Serializable{
 	private Date lastUpdateTime;
 
 	
-	/*private Set<Notes> notes = new HashSet<Notes>(0);
-	@OneToMany(fetch = FetchType.LAZY, mappedBy = "user")
-	public Set<Notes> getNotes() {
-		return notes;
-	}
-
-	public void setNotes(Set<Notes> notes) {
-		this.notes = notes;
-	}*/
-
-	
-
 	public String getEmail() {
 		return email;
 	}
